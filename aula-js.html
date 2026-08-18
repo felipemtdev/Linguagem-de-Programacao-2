@@ -1,0 +1,61 @@
+index.html
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+
+</head>
+<body>
+    <h1>Curso de JavaScript</h1>
+    <input type="text"
+    placeholder="Teste de precedência"
+    id="texto"
+    disabled="disabled">
+
+    <script src="meu_script.js">
+    </script>
+</body>
+</html>
+
+
+meu_script.js
+
+alert ('Olá, seja bem vindo ao curso!!!')
+
+var variavel=1 //inteiro console.log(typeof variavel)
+var variavel="1" //String console.log(typeof variavel)
+var variavel=true //Booleano console.log(typeof variavel)
+
+document.getElementById('texto').value = 'Tudo bem?'
+
+var texto = "O javascript torna as páginas web mais interativas"
+document.write(texto)
+document.write("br")
+document.write(texto.toLocaleLowerCase())
+document.write("br")
+document.write(texto.toLocaleUpperCase())
+
+
+var nome = prompt('Digite seu nome:')
+var nome = prompt('Digite sua idade')
+console.log(typeof idade)
+
+var ano = 2026-parseInt(idade);
+console.log(typeof parseInt(idade))
+console.log(typeof parseFloat(idade))
+
+document.write('<h1> Seu nome é '+nome+' e a idade '+idade+' anos e nasceu em '+ano+'</h1>')
+
+var lista_produtos =
+Array('Camiseta','Jaqueta','Moleton','Calça')
+var lista_frutas = []
+
+lista_frutas[0] = 'Banana'
+lista_frutas[1] = 'Maça'
+lista_frutas[2] = 'Morango'
+lista_frutas[3] = 'Uva'
+
+console.log(lista_frutas)
+console.log(lista_produtos)
